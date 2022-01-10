@@ -1,0 +1,20 @@
+.cajapadre{
+
+    width: 800px;
+    height: 800px;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    border: 1px solid blue;
+    background-color: #151e33;
+    color: white;
+    
+}
+
+.text {
+    margin-left: 350px;
+}
+
+header{
+    margin: center;
+}
