@@ -18,14 +18,16 @@ body{
     padding: 15px;
 }
 
-#img-figure{
+#img-div{
     background-color: white;
     margin: 0;
     padding: 10px;
 }
 #image{
-    max-width: 100%;
+    max-width: 1024px;
     height: auto;
+    display:block;
+    margin: 0px auto;
 }
 
 .biography{
