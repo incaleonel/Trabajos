@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /*background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);*/
+}
+
+#name-label{
+    display: block;
+}
+#email-label{
+    display: block;
+}
+#number-label{
+    display: block;
+}
