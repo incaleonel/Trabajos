@@ -1,15 +1,43 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    /*background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);*/
+    background: linear-gradient(rgba(52, 17, 148, 0.6),rgba(22, 82, 131, 0.70)) ,url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
 }
 
-#name-label{
-    display: block;
+#survey-form{
+    background-color: rgb(16, 6, 47);
+    width: 600px;
+    height: auto;
+    padding:40px;
+    border-radius: 6px;
+    opacity: 0.8;
 }
-#email-label{
-    display: block;
+#survey-form, #survey-form div{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
-#number-label{
-    display: block;
+#title{
+    margin-bottom:0;
+    margin-top: 2%;
+
+}
+#description{
+    
+    font-size: 19px;
+    font-style: italic;
+}
+
+label{
+    margin-bottom: 5px;
 }
