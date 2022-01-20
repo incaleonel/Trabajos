@@ -1,13 +1,175 @@
+
 body{
-    background-color: white;
-    border-style: solid;
-    border-color:black;
-    border-width: 20px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+    font-family: "lato", sans-serif;
+    align-items: center;
+    
 }
 
-div{
-    background-color: violet;
-    height: 100px;
-    width: 100px;
+#header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(228, 228, 228);
+    justify-content: space-between;
+    top:0;
+    width: 100vw;
+}
+#header-img{
+    width: 300px;
+    height: 34px;
+    margin: 2vh 3vh;
+}
+
+#sub_body{
+    padding-top: 100px;
+
+}
+
+#nav-bar{
+    margin-right: 6vh;
+    width: 70vh;
+}
+ul{
+    font-size: 1.2em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#email{
+    width: 20em;
+    font-size: 1.1em;
+    margin-bottom: 2vh;
+}
+#submit{
+    width: 15em;
+    height: 2em;
+    background-color: rgb(255, 197, 8);
+    border-style: hidden;
+    font-weight: 900;
+}
+
+.seccion{
+    display:flex;
+    justify-content: center;
+    
+}
+#form
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.text{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57vw;
+}
+h2{
+    margin-bottom: 0;
+}
+.fas
+{
+    font-size: 7vh;
+    color: darkorange;
+}
+#icono{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icono{
+    width: 15vh;
+    height: 15vh;
+}
+#video{
+    margin: 10vh auto;
+    width: 60%;
+
+}
+
+#box{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 2vh 1vw;
+}
+h3{
+    background-color: #ddd;
+    margin:0;
+    padding: 1em 5em;
+    font-size: 0.9em;
+    font-weight: 550;
+}
+
+p{
+    margin: 0.5em 0;
+}
+
+button{
+    margin: 2em;
+    background-color: rgb(255, 197, 8);
+    border-style: hidden;
+    padding: 0.6em 1em;
+}
+#precio{
+    font-size: 1.5em;
+    margin-bottom: 1.8em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #ddd;
+}
+
+#copyright{
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 0.8em;
+    color: rgb(102, 100, 100);
+}
+#pie{
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+.link{
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 750px){
+    #menu{
+        flex-direction: column;
+    }
+    li{
+        margin: 5px
+    }
+    #header{
+        align-items: center;
+    }
+    .seccion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sub_body{
+        padding-top: 200px;
+    
+    }
+}
+
+@media (max-width: 590px){
+    #header{
+        flex-direction: column;
+    }
 }
