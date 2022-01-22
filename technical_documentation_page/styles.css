@@ -2,33 +2,59 @@ body{
     margin:0;
     display:grid;
     grid-template-areas: "menu text";
-    grid-template-columns: 19em auto;
+    grid-template-columns: 18em auto;
+    overflow-y: hidden;
+    font-family: 'Open Sans', Arial, sans-serif;;
 }
 
 #navbar{
     grid-area: menu;
     border-style: solid;
     border-color: black;
-    border-width: 1px;  
-
-    
+    border-width: 1px;   
 }
-#navbar header, .nav-link{
+.nav-link{
     border-style: solid;
     border-color: black;
     border-width: 1px;
     text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    border-width: 3px;
+}
+#navbar header{
+    font-size: 1.7em;
+    padding: 0.8em;
+    height: 5vh;
+    text-align: center;
 }
 #main-doc{
     grid-area: text;
     height: 100vh;
     overflow-y: scroll;
+    padding: 2em;
 }
 #menu{
     list-style: none;
     padding: 0;
     display: grid;
     margin:0;
+    height: 72%;
+    overflow-y: scroll;
     
 }
 
+.nav-link{
+    display: block;
+    padding: 1em;
+}
+
+p{
+    margin: 1em;
+    font-size: 0.9em;
+}
+
+section ul li{
+    margin:1em;
+}
